@@ -1,11 +1,4 @@
-# pi_server
-
-Pi_server projekt bol vytvorený ako súčasť školského projektu "Smart Home". Cieľom celého projektu bolo demonštrovať použitie modulov Arduino na riadenie zariadení v domácnosti. Dielčia časť Pi_server rieši HTTP komunikáciu užívateľa a komunikuje s Arduinom cez sériovú linku. Odosiela povely a tiež monitoruje stav ovládaných periférií.
-
-## Predslov
-Projekt bol vytvorený v prostredí [PlatformIO IDE](https://platformio.org/). Najprv bol vyvíjaný v multifunkčnom editore [Atom](https://atom.io/). Kedže Atom v čase vývoja mal množstvo bugov, plynule vývoj prešiel do prostredia [Vscode](https://code.visualstudio.com/), aj napriek výhradám voči politike firmy Microsoft, ktorá je tvorcom prostredia Vscode. Musím uznať, že Vscode je špičkový software. Umožňuje integrovať množstvo nástrojov a užitočných doplnkov pre urýchlenie vývoja rôznych typov aplikácií.
-
-## Quick start
+## Ako začať
 
 Je úplne jedno či pracujeme pod Linuxom alebo Windowsom. Ja osobne preferujem Ubuntu linux, môj syn fachčí pod Arch linuxom. Systém Windows postupne opúšťam, nakoľko ma nebaví čakať na "samoinštalácie" tohto spotvoreného systému.
 
@@ -49,7 +42,7 @@ Následne je vhodné aktualizovať knižnice na aktuálne verzie
 ```sh
 cd ~/pi_server
 $ npx npm-check-updates -u
-$ npm install 
+$ npm install
 ```
 
 Nakoniec vojdi do projektu a spusti aplikaciu nasledovne:
