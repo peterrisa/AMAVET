@@ -4,7 +4,7 @@ Projekt AMAVET bol vytvorený ako následovník školského projektu "Smart Houm
 
 ## Vývojová verzia projektu pi_server a dom_displej
 ### pi_server
-[pi_server](https://github.com/risapav/pi_server) - server s webovou stránkou
+[pi_server](https://github.com/risapav/pi_server) - server s web stránkou
 ### dom_displej 
 [dom_displej](https://github.com/peterrisa/dom_displej)- kód bežiaci na doske Arduino, riadenie senzorov 
 
