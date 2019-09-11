@@ -20,7 +20,7 @@ void Television::setup()
     }
     else if (identifier == 0x9488)
     {
-        Serial.print(F("Unknown LCD driver chip: "));
+       Serial.print(F("Unknown LCD driver chip: "));
         Serial.println(identifier, HEX);
         Serial.println(
             F("If using the Adafruit 3.5\" TFT Arduino shield, the line:"));
@@ -30,7 +30,7 @@ void Television::setup()
             F("If using the breakout board, it should NOT be #defined!"));
         Serial.println(
             F("Also if using the breakout, double-check that all wiring"));
-        Serial.println(F("matches the tutorial."));
+        Serial.println(F("matches the tutorial.")); 
         identifier = 0x9486;
     }
     _tft.begin(identifier);
