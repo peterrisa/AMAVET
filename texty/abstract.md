@@ -1,4 +1,4 @@
-#Smart HOUM 2.0
+# Smart HOUM 2.0
 
 ## Smart home [sk_lang]
 V súčasnosti je trendom mať čo najviac „smart“ vecí. Tento trend neobišiel ani domácnosti, ktoré vďaka moderným vychytávkam dokážu ponúknuť nebývalý komfort. Výsledkom niekoľkomesačnej práce dvoch študentov je model inteligentnej domácnosti, ktorý ponúka ukážku niektorých z funkcií. Projekt bol zameraný na zhotovenie plne funkčného modelu medzi funkcie patrí: automatické zapínanie/vypínanie svetiel, automatické tienenie na základe senzorov, diaľkové ovládanie garáže, „televízia“ na ktorej sa zobrazujú aktuálne hodnoty stavu funkcií.
