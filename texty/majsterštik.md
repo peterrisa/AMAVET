@@ -8,15 +8,15 @@ author:
 
 # Ciele projektu
 
-- **Jednoduchosť**
+* **Jednoduchosť**
 
-- **Bezplatnosť**
+* **Bezplatnosť**
 
-- **Dostupnosť**
+* **Dostupnosť**
 
-- **Škálovateľnosť**
+* **Škálovateľnosť**
 
-- **OpenSource**
+* **OpenSource**
 
 ---
 
