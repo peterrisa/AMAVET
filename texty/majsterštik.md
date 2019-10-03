@@ -5,18 +5,19 @@ author:
 - Peter Riša, Dušan Šúňava
 ---
 
----
+
 # Ciele projektu
 
-**Jednoduchosť**
+- **Jednoduchosť**
 
-**Bezplatnosť**
+- **Bezplatnosť**
 
-**Dostupnosť**
+- **Dostupnosť**
 
-**Škálovateľnosť**
+- **Škálovateľnosť**
 
-**OpenSource**
+- **OpenSource**
+
 ---
 
 # Povedzme si čo je to Smart Home
@@ -33,7 +34,6 @@ Základnou myšlienkou projektu bolo vytvoriť model inteligentnej domácnosti. 
  Na stavbu domu sme použili OSB dosky, plexisklo, farbu a skrutky. Model sme postavili relatívne rýchlo, dlhšie trvalo naprogramovať software. Aby nám fungovalo riadenie zariadení a monitorovanie senzorov sme potrebovali nejaké zariadenie s množstvom digitálnych aj analógových vstupov/výstupov. Na túto úlohu sme zvolili Arduino Mega 2560, kvôli neprekonateľnému pomeru cena/funkcie. Ako server, ktorý robí uzol medzi užívateľom a zariedeniami sme zvolili Raspberry Pi 3 B+. Potrebovali sme len malé zariadenie na ktorom pobeží NodeJS server. Vivinuli sme taktiež jednoduchú web stránku, ktorou vieme ovládať všetko v modeli.
 
 ---
-
 
 # Funkcie domu
 
@@ -63,7 +63,6 @@ Ohrev/klimatizovanie malo prebiehať pomocou peltierových článkov, na ktorýc
 Táto možnosť je vo vývoji.
 
 ---
-
 
 # Programovanie
 Programovanie prebiehalo v prostredí VScode. Neskôr sme prešli z Raspberry Pi na X86 platformu. Bolo to z dôvodu potreby vyžšieho výkonu. Začali sme vyvíjať projekt na dialku. Na zariadení Raspberry by kompilácia projektu a následné nahratie do Arduina trvala nesmierne dlho.
