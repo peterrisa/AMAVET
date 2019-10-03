@@ -1,5 +1,4 @@
 ---
-output: pdf_document
 title:
 - Scenár k projektu AMAVET Smat HOUM (2.0)
 author:
@@ -9,11 +8,11 @@ author:
 
 # Ciele projektu
 
-### Jednoduchosť
-### Bezplatnosť
-### Dostupnosť
-### Škálovateľnosť
-### OpenSource
+**Jednoduchosť**
+**Bezplatnosť**
+**Dostupnosť**
+**Škálovateľnosť**
+**OpenSource**
 
 
 # Povedzme si čo je to Smart Home
