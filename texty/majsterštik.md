@@ -15,7 +15,9 @@ author:
 * **Škálovateľnosť**
 
 * **Open-Source**
+
 :muscule:
+
 ---
 
 # Povedzme si čo je Smart Home
