@@ -9,9 +9,13 @@ author:
 # Ciele projektu
 
 **Jednoduchosť**
+
 **Bezplatnosť**
+
 **Dostupnosť**
+
 **Škálovateľnosť**
+
 **OpenSource**
 
 
