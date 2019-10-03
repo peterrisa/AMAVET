@@ -66,8 +66,8 @@ Programovanie prebiehalo v prostredí VScode. Neskôr sme prešli z Raspberry Pi
 
  2. časťou je "pi_server". Táto časť má na starosti samotný server, ktorý beží na serveri. Obsahuje dokumentáciu, príručku ako ho spustiť, samotný kód stránky aj servera.
 
-## tieto projekty sa nachádzajú na platforme GitHub
-### Odkaz:"https://github.com/peterrisa/AMAVET"
+## Projekty na platforme GitHub
+### Odkaz: https://github.com/peterrisa/AMAVET
 
 
 
