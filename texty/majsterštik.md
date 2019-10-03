@@ -86,7 +86,7 @@ V kostre modelu je preto zabudovaný malý pasívne chladený počítač spolu s
 ---
 
 # Ako to funguje?
-Arduino je  prepojené zo serverom pomocou sériovej linky. ZAriadenia si vymieňajú každých 100 milisekúnd "telegramy". Vebová stránka zobrazuje príchodzie informácie užívateľovi. Stránka taktiež vyhodnocuje logiku príkazov, aby sa napríklad zbytočne neposlali príkazy explicitne.
+Arduino je  prepojené zo serverom pomocou sériovej linky. ZAriadenia si vymieňajú každých 100 milisekúnd "telegramy". Webová stránka zobrazuje príchodzie informácie užívateľovi. Stránka taktiež vyhodnocuje logiku príkazov, aby sa napríklad zbytočne neposlali príkazy explicitne.
 
 ---
 
