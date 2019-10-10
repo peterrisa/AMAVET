@@ -33,11 +33,11 @@ Ako prvé bolo potrebné postaviť model domu. Na stavbu domu sme použili OSB d
 Dom sa skladá z úrovne 1 a úrovne 2. Medzi úrovňou 1 a 2 je priestor, ktorý je využitý na umiestnenie všetkej potrebnej elektroniky (server, ATX zdroj, Arduino, potrebné vodiče).
 Na druhej úrovni sa nachádzajú priečky, ktoré tvoria miestnosti. Dom obsahuje 3 miestnosti.
 
- 1. V garáži sa nachádza demonštrácia funkcie ovládania garáže s pomocou web stránky.
+ 1. miestnosť - v garáži sa nachádza demonštrácia funkcie ovládania garáže s pomocou web stránky.
 
- 2.V obývačke sa nachádza "Smart TV" zo zobrazovaním aktuálnych hodnôt zo senzorov a stav garáže v reálnom čase. Taktiež sa tu nachádza LED osvetlenie vzdialene ovládatné.
+ 2. miestnosť - obývačke sa nachádza "Smart TV" zo zobrazovaním aktuálnych hodnôt zo senzorov a stav garáže v reálnom čase. Taktiež sa tu nachádza LED osvetlenie vzdialene ovládatné.
 
- 3. Slúži na demonštrovanie automatického tienenia (záclony) a mala slúžiť na demonštrovnie ohrevu/klimatizovania.
+ 3. miestnosť - slúži na demonštrovanie automatického tienenia (záclony) a mala slúžiť na demonštrovnie ohrevu/klimatizovania.
 
 Model sme postavili relatívne rýchlo. No programovanie a zapojenie elektroniky trvalo nejaký čas.
 Aby nám fungovalo riadenie zariadení a monitorovanie senzorov sme potrebovali nejaké vybrať zariadenie s množstvom digitálnych aj analógových vstupov/výstupov. Na túto úlohu sme zvolili Arduino Mega 2560, kvôli neprekonateľnému pomeru cena/funkcie.
@@ -64,7 +64,7 @@ Aby sme docielili zatváranie aj otváranie, bolo nutné meniť polaritu motora.
 ## Automatické svietenie/tienenie
 Svetlá majú tri možnosti fungovania: zapnúť / vypnúť / automatika. Ovládanie prebieha pomocou tlačidel na web stránke.
 Spínanie funguje pomocou relé, ovládané je Arduinom.
-Ako svetlá boli použíté biele 12V LED pásy.
+Ako svetlá boli použiité biele 12V LED pásy.
 Automatický mód funguje pomocou senzoru okolitého jasu. Údaje zo senzoru vyhodnocuje Arduino. Ak dostane pokyn od serveru na zmenu stavu na automatiku, tak Arduino začne aktívne porovnávať údaje zo senzorov a prednastavenou hodnotou pre zapnutie svetiel. Momentálne je nastavená hodnota 20% pre svetlá a 40% pre závesy, ak klesne úroveň okolitého jasu pod túto úroveň, tak svetlá sa zapnú a závesy sa otvoria. Naopak, ak sa okolitý jas dostane nad úroveň 20%, resp. 40% tak sa svetlá vypnú a závesy sa zatvoria.
 Závesy fungujú iba v automatickom režime.
 
@@ -123,4 +123,3 @@ Webová stránka zobrazuje príchodzie informácie užívateľovi. Stránka takt
 - **jednoduché programovanie zariadení**
 - **pridanie obsiahlych knižníc s návodmi a vylepšené komentáre v kóde**
 - **uľahčenie programovania bežným ľuďom**
-- **bazén s vodotryskom**
