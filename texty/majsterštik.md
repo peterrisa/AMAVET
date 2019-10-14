@@ -44,7 +44,6 @@ Aby nám fungovalo riadenie zariadení a monitorovanie senzorov sme potrebovali 
 Ako server, ktorý robí uzol medzi užívateľom a zariadeniami sme zvolili Raspberry Pi 3B+ (neskôr plnohodnotný X86 server). Potrebovali sme len malé zariadenie na ktorom pobeží NodeJS server s modulom npm.
 Vyvinuli sme taktiež jednoduchú web stránku, ktorou je možné ovládať všetky funkcie v modeli.
 Ako napájanie slúži 250W mATX zdroj.
-
 ---
 
 # Funkcie domu
